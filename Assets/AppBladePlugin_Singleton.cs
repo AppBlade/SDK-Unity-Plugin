@@ -30,7 +30,7 @@ public class AppBladePlugin_Singleton : MonoBehaviour
 	public string projectIssuedAt = "";
 	public bool feedbackEnabled = false;
 	public bool crashReportEnabled = false;
-	public bool crashReportLevel = "";
+	public bool crashReportLevel = false;
 	
 	void setupPlugin()
 	{
